@@ -13,6 +13,6 @@ Para uma melhor identificação será utilizado de emojis para identificação d
 
 :up: atualização
 
-:beetle: correção de bug
+:bug: correção de bug
 
 :checkered_flag: release

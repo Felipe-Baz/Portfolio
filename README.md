@@ -8,7 +8,11 @@ O controle de versões e das tarefas será totalmente realizado através do gith
 ## Ícones
 Para uma melhor identificação será utilizado de emojis para identificação de qual tipo de mudanças foram aplicadas.
 
+
 :package: nova funcionalidade 
+
 :up: atualização
-:beatle: correção de bug
+
+:beetle: correção de bug
+
 :checkered_flag: release

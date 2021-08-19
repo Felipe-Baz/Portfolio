@@ -1,4 +1,5 @@
 # portfolio
+
 Consiste em um projeto amador, com objetivo de criar um portfolio do desenvolvedor.
 
 ## Tarefas
@@ -6,13 +7,14 @@ Consiste em um projeto amador, com objetivo de criar um portfolio do desenvolved
 O controle de versões e das tarefas será totalmente realizado através do github.
 
 ## Ícones
+
 Para uma melhor identificação será utilizado de emojis para identificação de qual tipo de mudanças foram aplicadas.
 
 
-:package: nova funcionalidade 
+- :package: nova funcionalidade 
 
-:up: atualização
+- :up: atualização
 
-:bug: correção de bug
+- :bug: correção de bug
 
-:checkered_flag: release
+- :checkered_flag: release

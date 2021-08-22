@@ -30,7 +30,7 @@
                 <div class="banner">
                     <h1>Computer Engineer and Data Scientist</h1>
                     <p>Felipe Baz Mitsuishi</p>
-                    <button onClick="saibaMaisIntro()">Saiba mais</button>
+                    <button onClick="saibaMaisIntro()" class="btn">Saiba mais</button>
                 </div>
             </header>
 
@@ -131,7 +131,7 @@
                             <h2>WineClassification</h2>
                             <h3>Python</h3>
                             <p>Algoritmo de classificação de vinhos utilizando o estimador ExtraTreesClassifier do sklearn.</p>
-                            <button onClick="saibaMaisProj1()">Saiba Mais</button>
+                            <button onClick="saibaMaisProj1()" class="btn">Saiba Mais</button>
                         </div>
                     </div>
                     <div class="card">
@@ -142,7 +142,7 @@
                             <h2>PacMan</h2>
                             <h3>Python</h3>
                             <p>Codigo de um jogo inspirado em Pac Man.</p>
-                            <button onclick="saibaMaisProj2()">Saiba Mais</button>
+                            <button onclick="saibaMaisProj2()" class="btn">Saiba Mais</button>
                         </div>
                     </div>
                     <div class="card">
@@ -153,8 +153,32 @@
                             <h2>BreastCancer</h2>
                             <h3>Python</h3>
                             <p>Rede Neural aplicada para resolução de um problema de categorização de cancers entre benigno e maligno.</p>
-                            <button onclick="saibaMaisProj3()">Saiba Mais</button>
+                            <button onclick="saibaMaisProj3()" class="btn">Saiba Mais</button>
                         </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="sessao-contato">
+                <div class="contato-wrapper">
+                    <div class="contato-left"></div>
+                    <div class="contato-right">
+                        <h1>Contato</h1>
+                        <form action="">
+                            <div class="input-group">
+                                <input type="text" class="field" id="nome">
+                                <label for="nome" class="field-label">Nome</label>
+                            </div>
+                            <div class="input-group">
+                                <input type="text" class="field" id="email">
+                                <label for="email" class="field-label">E-mail</label>
+                            </div>
+                            <div class="input-group">
+                                <textarea class="field" id="msg"></textarea>
+                                <label for="msg" class="field-label">Mensagem</label>
+                            </div>
+                            <button type="submit" class="btn btn_submit">Enviar</button>
+                        </form>
                     </div>
                 </div>
             </section>

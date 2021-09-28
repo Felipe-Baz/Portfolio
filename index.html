@@ -164,7 +164,7 @@
                     <div class="contato-left"></div>
                     <div class="contato-right">
                         <h1>Contato</h1>
-                        <form action="">
+                        <form action="enviar()">
                             <div class="input-group">
                                 <input type="text" class="field" id="nome">
                                 <label for="nome" class="field-label">Nome</label>
@@ -181,6 +181,33 @@
                         </form>
                     </div>
                 </div>
+            </section>
+
+            <section class="sessao-orcamento">
+                <div class="orcamento-wrapper">
+                    <h1>Faça um Orçamento</h1>
+                    <form>
+                        <label for="qtde">Qtde de paginas</label>
+                        <input type="number" min="1" max="100"name="qtde" id="qtde">
+                        <label for="js">Preciso de um script JavaScript</label>
+                        <input type="checkbox" name="js" id="js">
+                        <label> Layout</label>
+                        <div class="group-layout">
+                            <div>
+                                <input type="radio" name="layout" id="layout-sim">
+                                <label for="layout-sim">Preciso de um layout</label>
+                            </div>
+                            <div>
+                                <input type="radio" name="layout" id="layout-nao">
+                                <label for="layout-nao">já tenho um layout</label>
+                            </div>
+                        </div>
+                        <label for="prazo">Prazo</label>
+                        <input type="range" name="range" id="prazo">
+                        <button class="btn btn-orcamento" type="submit">Enviar</button>
+                    </form>
+                </div>
+
             </section>
         </div>
 

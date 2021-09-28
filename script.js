@@ -17,3 +17,7 @@ function saibaMaisProj2() {
 function saibaMaisProj3() {
     window.open("https://github.com/Felipe-Baz/BreastCancer");
 }
+
+function enviar() {
+    window.open('mailto:fbazmitsuishi@gmail.com?subject='+ +'&body='+ )
+}

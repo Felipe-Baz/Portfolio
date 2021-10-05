@@ -2,6 +2,8 @@
 
 It consists of an amateur project, with the objective of creating a portfolio for a developer. For this project, full-stack web programming techniques were used, using the most basic technologies on the market, such as HTML, CSS and JavaScript.
 
+You can see this aplication in the site: https://felipe-baz.github.io/Portfolio/
+
 ## Tasks
 
 Version and task control will be fully performed through github, as the tool was used, to modularize the project into parts, thus maintaining a good organization.
